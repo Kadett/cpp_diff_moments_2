@@ -60,13 +60,13 @@ uint32_t count_vowels_for__for(std::string &str, std::string &vowels){
 
 int main() {
 
-/*
+
     int *a = new int(5);
     int *b = new int(10);
     std::cout << "a = " << *a << " - " << a << "; b = " << *b << " - " << b << std::endl;
     swap(a, b);
     std::cout << "a = " << *a << " - " << a << "; b = " << *b << " - " << b << std::endl;
-
+    std::cout << "\n";
 
     std::vector<int*> vector;
     vector.push_back(new int(5));
@@ -76,13 +76,15 @@ int main() {
     vector.push_back(new int(1));
     vector.push_back(new int(12));
     for (const auto &val : vector) {
-        std::cout << *val << std::endl;
+        std::cout << *val << " ";
     }
+    std::cout << "\n";
     SortPointers(vector);
     for (const auto &val : vector) {
-        std::cout << *val << std::endl;
+        std::cout << *val << " ";
     }
-*/
+    std::cout << "\n\n";
+
     std::ifstream in;
     in.open("war.txt");
     std::string str;
