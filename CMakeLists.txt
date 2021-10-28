@@ -3,4 +3,4 @@ project(cpp_diff_moments_2)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(cpp_diff_moments_2 main.cpp)
+add_executable(cpp_diff_moments_2 main.cpp Timer.h)
